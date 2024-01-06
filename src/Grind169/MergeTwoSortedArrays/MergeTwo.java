@@ -1,4 +1,4 @@
-package Grind75.MergeTwoSortedArrays;
+package Grind169.MergeTwoSortedArrays;
 
 public class MergeTwo {
     public static void main(String[] args) {

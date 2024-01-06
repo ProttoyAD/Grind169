@@ -1,4 +1,4 @@
-package Grind75.TwoSum;
+package Grind169.TwoSum;
 
 public class TwoSum {
 
