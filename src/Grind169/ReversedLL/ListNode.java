@@ -1,4 +1,4 @@
-package Grind169.MergeTwoSortedArrays;
+package Grind169.ReversedLL;
 
 public class ListNode {
     /**
@@ -17,10 +17,10 @@ public class ListNode {
     ListNode(){
 
     }
-    public ListNode(int val){
+    ListNode(int val){
         this.val=val;
     }
-    public ListNode(int val, ListNode next){
+    ListNode(int val, ListNode next){
         this.val=val;
         this.next=next;
     }
