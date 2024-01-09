@@ -1,4 +1,4 @@
-package Grind169.MergeTwoSortedArrays;
+package Grind169.MiddleOfLL876;
 
 public class ListNode {
     /**
