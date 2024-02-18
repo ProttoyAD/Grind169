@@ -3,21 +3,21 @@ package Grind169.MiddleOfLL876;
 
 public class Main {
     public static void main(String[] args) {
-        ListNode Node1=new ListNode(9);
-        ListNode Node2=new ListNode(8,Node1);
-        ListNode Node3=new ListNode(7,Node2);
-        ListNode Node4=new ListNode(6,Node3);
-        ListNode Node5=new ListNode(5,Node4);
-        ListNode Node6=new ListNode(4,Node5);
-        ListNode Node7=new ListNode(3,Node6);
-        ListNode Node8=new ListNode(2,Node7);
-        ListNode Node9=new ListNode(1,Node8);
+        Node Node1=new Node(9);
+        Node Node2=new Node(8,Node1);
+        Node Node3=new Node(7,Node2);
+        Node Node4=new Node(6,Node3);
+        Node Node5=new Node(5,Node4);
+        Node Node6=new Node(4,Node5);
+        Node Node7=new Node(3,Node6);
+        Node Node8=new Node(2,Node7);
+        Node Node9=new Node(1,Node8);
         System.out.println(middleNodeLeet(Node6));
 
     }
-    public static ListNode middleNode(ListNode head) {
+    public static Node middleNode(Node head) {
         int counter=1;
-        ListNode temp=head;
+        Node temp=head;
         if (head==null){
             return null;
         }
@@ -33,8 +33,8 @@ public class Main {
         return temp;
     }
 
-    public static ListNode middleNodeLeet(ListNode head) {
-        ListNode slow = head, fast = head;
+    public static Node middleNodeLeet(Node head) {
+        Node slow = head, fast = head;
         while (fast != null && fast.next !=null && fast.next.next!=null) {
             slow = slow.next;
             fast = fast.next.next;

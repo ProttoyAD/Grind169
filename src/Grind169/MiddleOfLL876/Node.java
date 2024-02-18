@@ -1,6 +1,6 @@
 package Grind169.MiddleOfLL876;
 
-public class ListNode {
+public class Node {
     /**
      * Definition for singly-linked list.
      * public class ListNode {
@@ -13,14 +13,14 @@ public class ListNode {
      */
 
     int val;
-    ListNode next;
-    public ListNode(){
+    Node next;
+    public Node(){
 
     }
-    public ListNode(int val){
+    public Node(int val){
         this.val=val;
     }
-    public ListNode(int val, ListNode next){
+    public Node(int val, Node next){
         this.val=val;
         this.next=next;
     }
